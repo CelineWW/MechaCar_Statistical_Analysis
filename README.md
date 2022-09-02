@@ -22,18 +22,18 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 
 
 ## Summary Statistics on Suspension Coils
+### Total Summary Dataframe
 
 <img width="335" alt="total_summary dataframe" src="https://user-images.githubusercontent.com/105877888/188211703-2793c5d3-4734-4d2c-9362-7e8272018013.png">
 
-Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+The total summary dataframe shows mean, median, variance, and standard deviation of **The Pounds per Square Inch (PSI)** for all manufacturing lots. The variance of suspension coils does not exceed 100 pounds per square inch. Overall, the current manufacturing data meets this design specification.
 
-An RScript is written to create a total summary dataframe that has the mean, median, variance, and standard deviation of the PSI for all manufacturing lots (10 pt)
-An RScript is written to create a lot summary dataframe that has the mean, median, variance, and standard deviation for each manufacturing lot (10 pt)
-
+### Lot Summary Dataframe
 
 <img width="489" alt="lot_summary dataframe" src="https://user-images.githubusercontent.com/105877888/188211742-77b0fe66-a904-4121-a680-7f3bf79e1225.png">
 
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+Lot summary dataframe shows mean, median, variance, and standard deviation of **PSI** for each manufacturing lot. Among current 3 lots, the variance of the suspension of **Lot3** is over 170 pounds per square inch. Therefore, **Lot3** does not meeth the design of specification. 
+
 
 ## T-Tests on Suspension Coils
 
