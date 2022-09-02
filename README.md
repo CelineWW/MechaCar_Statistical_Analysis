@@ -6,7 +6,7 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 - Use t-test to determine the statistical difference between the PSI mean of current manufacturing lots and the population
 - Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers.  
 
-## Linear Regression to Predict MPG
+## Linear Regression to Predict MPG[[Link](https://github.com/CelineWW/MechaCar_Statistical_Analysis/blob/main/Screenshots/Linear%20Regression%20to%20Predict%20MPG.png)]
 
 ![Linear Regression to Predict MPG](https://user-images.githubusercontent.com/105877888/188210992-da1ad51c-7f3d-4f85-918b-763fab69bed8.png)
 
@@ -20,13 +20,13 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 
 ## Summary Statistics on Suspension Coils
-### Total Summary Dataframe
+### Total Summary Dataframe[[Link](https://github.com/CelineWW/MechaCar_Statistical_Analysis/blob/main/Screenshots/total_summary%20dataframe.png)]
 
 <img width="335" alt="total_summary dataframe" src="https://user-images.githubusercontent.com/105877888/188211703-2793c5d3-4734-4d2c-9362-7e8272018013.png">
 
 - The total summary dataframe shows statistics of **The Pounds per Square Inch (PSI)** for all manufacturing lots. The variance of suspension coils does not exceed 100 pounds per square inch. Overall, the current manufacturing data meets this design specification.
 
-### Lot Summary Dataframe
+### Lot Summary Dataframe[[Link](https://github.com/CelineWW/MechaCar_Statistical_Analysis/blob/main/Screenshots/lot_summary%20dataframe.png)]
 
 <img width="489" alt="lot_summary dataframe" src="https://user-images.githubusercontent.com/105877888/188211742-77b0fe66-a904-4121-a680-7f3bf79e1225.png">
 
@@ -34,13 +34,13 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 
 ## T-Tests on Suspension Coils
-### T-Test on All Lots of Suspension Coils
+### T-Test on All Lots of Suspension Coils[[Link](https://github.com/CelineWW/MechaCar_Statistical_Analysis/blob/main/Screenshots/All%20lot%20t-test.png)]
 
 <img width="709" alt="All lot t-test" src="https://user-images.githubusercontent.com/105877888/188211803-67a40306-252a-4715-abc0-a62ba31a18e7.png">
 
 - As shown of T-Test result, the p-value of all lot of suspension coils is `0.06028`. Assuming significance level is 0.05%, p-value is above significance level, we do not have sufficient evidence to reject the null hypothesis. The mean of all lot of suspension coils(1498.78) is similiar to the mean PSI of the population mean(`1500` PSI).
 
-### T-Test on Each Lot of Suspension Coils
+### T-Test on Each Lot of Suspension Coils[[Lot1](https://github.com/CelineWW/MechaCar_Statistical_Analysis/blob/main/Screenshots/Lot1%20t-test.png)][[Lot2](https://github.com/CelineWW/MechaCar_Statistical_Analysis/blob/main/Screenshots/Lot2%20t-test.png)][[Lot3](https://github.com/CelineWW/MechaCar_Statistical_Analysis/blob/main/Screenshots/Lot3%20t-test.png)]
 
 <img width="656" alt="Lot1 t-test" src="https://user-images.githubusercontent.com/105877888/188211828-a1bf033f-0fc2-42b9-b515-122baa949120.png">
 
