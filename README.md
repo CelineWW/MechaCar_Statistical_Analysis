@@ -64,7 +64,7 @@ According to the report of [Retail Prices for Gasline in California](https://www
  
 2.  What is the null hypothesis or alternative hypothesis?
   - H<sub>0</sub>(null hypothesis): If MechaCar has the same performance as the competition vehicle on fuel efficiency, the **MPG** mean of MechaCar will be similiar to the **MPG** mean of the competition.
-H<sub>a</sub>(alternative hypothesis): If MechaCar has better or worse performance over the competition vehicle on fuel efficiency, the **MPG** mean of MechaCar will be statistically different from the **MPG** mean of the competition.
+  - H<sub>a</sub>(alternative hypothesis): If MechaCar has better or worse performance over the competition vehicle on fuel efficiency, the **MPG** mean of MechaCar will be statistically different from the **MPG** mean of the competition.
 
 3.  What statistical test would you use to test the hypothesis? And why?
   - Since **MPG** is numeric data, and the sample size is large, we can perform a two-sample t-test.
