@@ -23,17 +23,32 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 
 ## Summary Statistics on Suspension Coils
 
+<img width="335" alt="total_summary dataframe" src="https://user-images.githubusercontent.com/105877888/188211703-2793c5d3-4734-4d2c-9362-7e8272018013.png">
 
-The Suspension_Coil.csv file is imported and read into a dataframe (5 pt)
+Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+
 An RScript is written to create a total summary dataframe that has the mean, median, variance, and standard deviation of the PSI for all manufacturing lots (10 pt)
 An RScript is written to create a lot summary dataframe that has the mean, median, variance, and standard deviation for each manufacturing lot (10 pt)
+
+
+<img width="489" alt="lot_summary dataframe" src="https://user-images.githubusercontent.com/105877888/188211742-77b0fe66-a904-4121-a680-7f3bf79e1225.png">
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 ## T-Tests on Suspension Coils
 
+<img width="709" alt="All lot t-test" src="https://user-images.githubusercontent.com/105877888/188211803-67a40306-252a-4715-abc0-a62ba31a18e7.png">
+
+
+
 In your MechaCarChallenge.RScript, write an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 Next, write three more RScripts in your MechaCarChallenge.RScript using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
+
+<img width="656" alt="Lot1 t-test" src="https://user-images.githubusercontent.com/105877888/188211828-a1bf033f-0fc2-42b9-b515-122baa949120.png">
+
+<img width="653" alt="Lot2 t-test" src="https://user-images.githubusercontent.com/105877888/188211844-33466754-afa1-42e3-b939-472f1dedf3e6.png">
+
+<img width="653" alt="Lot3 t-test" src="https://user-images.githubusercontent.com/105877888/188211879-023d13da-d94e-4565-aac7-b10ed1e99abe.png">
 
 An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population (5 pt)
 An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population (10 pt)
