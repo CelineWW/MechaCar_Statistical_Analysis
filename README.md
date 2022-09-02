@@ -26,13 +26,13 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 
 <img width="335" alt="total_summary dataframe" src="https://user-images.githubusercontent.com/105877888/188211703-2793c5d3-4734-4d2c-9362-7e8272018013.png">
 
-The total summary dataframe shows mean, median, variance, and standard deviation of **The Pounds per Square Inch (PSI)** for all manufacturing lots. The variance of suspension coils does not exceed 100 pounds per square inch. Overall, the current manufacturing data meets this design specification.
+The total summary dataframe shows statistics of **The Pounds per Square Inch (PSI)** for all manufacturing lots. The variance of suspension coils does not exceed 100 pounds per square inch. Overall, the current manufacturing data meets this design specification.
 
 ### Lot Summary Dataframe
 
 <img width="489" alt="lot_summary dataframe" src="https://user-images.githubusercontent.com/105877888/188211742-77b0fe66-a904-4121-a680-7f3bf79e1225.png">
 
-Lot summary dataframe shows mean, median, variance, and standard deviation of **PSI** for each manufacturing lot. Among current 3 lots, the variance of the suspension of **Lot3** is over 170 pounds per square inch. Therefore, **Lot3** does not meeth the design of specification. 
+Lot summary dataframe shows statistics of **PSI** for each manufacturing lot. Among current 3 lots, the variance of the suspension of **Lot3** is over 170 pounds per square inch. Therefore, **Lot3** does not meet the design of specification. **Lot1** and **Lot2** are ready to go.
 
 
 ## T-Tests on Suspension Coils
