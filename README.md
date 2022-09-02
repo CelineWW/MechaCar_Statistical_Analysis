@@ -10,7 +10,7 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 ![Linear Regression to Predict MPG](https://user-images.githubusercontent.com/105877888/188210992-da1ad51c-7f3d-4f85-918b-763fab69bed8.png)
 
-- Acoording to the multiple linear regression summary output highlighted in yellow box, p-value(`Pr(>|t|)`) of **Vehicle Length** `(2.60x10 <sup>-12</sup>)` and **Ground Clearance**`(5.21e-08)` are less than significance level(0.05), which represents that vehicle_length and ground_clearance provided a non-random amount of variance to thE **MPG** values in the dataset. In other words, **Vehicle Length** and **Ground Clearance** have significant impacts on **MPG**. 
+- Acoording to the multiple linear regression summary output highlighted in yellow box, p-value(`Pr(>|t|)`) of **Vehicle Length** `(2.60e-12)` and **Ground Clearance**`(5.21e-08)` are less than significance level(0.05), which represents that vehicle_length and ground_clearance provided a non-random amount of variance to thE **MPG** values in the dataset. In other words, **Vehicle Length** and **Ground Clearance** have significant impacts on **MPG**. 
 - At the same time, p-value(`Pr(>|t|)`) of intercept(`5.08e-08`) is less than significance level(0.05) too. This statistically significant intercept indicates that this linear model does not predict **MPG** of MechaCar prototypes effectively. The significant feartures (**Vehicle Length** and **Ground Clearance**) may need scaling and transforming to help improve the predictive power of the model. There are other variables, which are not inclued in this model, can help explain the variability of the **MPG** values.
 
 
@@ -58,28 +58,21 @@ Lot3: p-value = 0.04168, mean = 1496.14.
 - The p-value of **Lot3** is lower than significance level(0.05%), we do have sufficient evidence to reject the null hypothesis. The means of **Lot3** of suspension coils(`1496.14` PSI) is statistically different from the population mean(`1500` PSI). 
 
 ## Study Design: MechaCar vs Competition
-To study how the MechaCar performs against the competitions, we need to answer the following questions:
+According to the report of [Retail Prices for Gasline in California](https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=emm_epm0_pte_sca_dpg&f=m) from U.S. Energy Information Administration, from Aug, 2020 to Aug, 2022, all grades retail gasline price rised by 69%. There is no doubt that potential buyers will strongly concern about the **MPG(Miles per Gallon)** of their new vehicle.
+
+
 - What metric or metrics are you going to test?
- **MPG(Miles per Gallon)** which indicates the fuel economy of the vehicle.
+**MPG(Miles per Gallon)** reflects both city and highway fuel efficiency. These are both common in California.We are going to test **MPG(Miles per Gallon)** which indicates the fuel economy of the vehicle. 
  
 - What is the null hypothesis or alternative hypothesis?
-H<sub>0</sub>: ✕
-H<sub>a</sub>:
+H<sub>0</sub>(null hypothesis): If MechaCar has the same performance as the competition vehicle on fuel efficiency, the **MPG** mean of MechaCar will be similiar to the **MPG** mean of the competition.
+H<sub>a</sub>(alternative hypothesis): If MechaCar has better or worse performance over the competition vehicle on fuel efficiency, the **MPG** mean of MechaCar will be statistically different from the **MPG** mean of the competition.
 
 - What statistical test would you use to test the hypothesis? And why?
+Since **MPG** is numeric data, and the sample size is large, we can perform a two-sample t-test.
 
-two-sample t-test?
- If the success metric is numerical and the sample size is large, use a two-sample t-test.
+- What data is needed to run the statistical test?
+ - The **MPG** dataset of AutosRUs’ newest prototype, the MechaCar. These data is already on our hand.
+ - The **MPG** dataset of the competition vehicles. These data needs to be further collected.
+
  
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-
-
-A metric to be tested is mentioned (5 pt)
-A null hypothesis or an alternative hypothesis is described (5 pt)
-A statistical test is described to test the hypothesis (5 pt)
-The data for the statistical test is described (5 pt)
-What data is needed to run the statistical test?
