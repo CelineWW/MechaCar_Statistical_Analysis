@@ -58,20 +58,19 @@ Lot3: p-value = 0.04168, mean = 1496.14.
 - The p-value of **Lot3** is lower than significance level(0.05%), we do have sufficient evidence to reject the null hypothesis. The means of **Lot3** of suspension coils(`1496.14` PSI) is statistically different from the population mean(`1500` PSI). 
 
 ## Study Design: MechaCar vs Competition
-According to the report of [Retail Prices for Gasline in California](https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=emm_epm0_pte_sca_dpg&f=m) from U.S. Energy Information Administration, from Aug, 2020 to Aug, 2022, all grades retail gasline price rised by 69%. There is no doubt that potential buyers will strongly concern about the **MPG(Miles per Gallon)** of their new vehicle.
+According to the report of [Retail Prices for Gasline in California](https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=emm_epm0_pte_sca_dpg&f=m) from U.S. Energy Information Administration, from Aug, 2020 to Aug, 2022, all grades retail gasline price rised by 69%. There is no doubt that potential buyers will strongly concern about the **MPG(Miles per Gallon)** value of their new vehicle.
 
-
-- What metric or metrics are you going to test?
+1.  What metric or metrics are you going to test?
 **MPG(Miles per Gallon)** reflects both city and highway fuel efficiency. These are both common in California.We are going to test **MPG(Miles per Gallon)** which indicates the fuel economy of the vehicle. 
  
-- What is the null hypothesis or alternative hypothesis?
+2.  What is the null hypothesis or alternative hypothesis?
 H<sub>0</sub>(null hypothesis): If MechaCar has the same performance as the competition vehicle on fuel efficiency, the **MPG** mean of MechaCar will be similiar to the **MPG** mean of the competition.
 H<sub>a</sub>(alternative hypothesis): If MechaCar has better or worse performance over the competition vehicle on fuel efficiency, the **MPG** mean of MechaCar will be statistically different from the **MPG** mean of the competition.
 
-- What statistical test would you use to test the hypothesis? And why?
+3.  What statistical test would you use to test the hypothesis? And why?
 Since **MPG** is numeric data, and the sample size is large, we can perform a two-sample t-test.
 
-- What data is needed to run the statistical test?
+4.  What data is needed to run the statistical test?
   - The **MPG** dataset of AutosRUs’ newest prototype, the MechaCar. These data is already on our hand.
   - The **MPG** dataset of the competition vehicles. These data needs to be further collected.
 
