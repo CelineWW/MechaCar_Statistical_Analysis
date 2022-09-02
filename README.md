@@ -72,7 +72,7 @@ H<sub>a</sub>(alternative hypothesis): If MechaCar has better or worse performan
 Since **MPG** is numeric data, and the sample size is large, we can perform a two-sample t-test.
 
 - What data is needed to run the statistical test?
- - The **MPG** dataset of AutosRUs’ newest prototype, the MechaCar. These data is already on our hand.
- - The **MPG** dataset of the competition vehicles. These data needs to be further collected.
+  - The **MPG** dataset of AutosRUs’ newest prototype, the MechaCar. These data is already on our hand.
+  - The **MPG** dataset of the competition vehicles. These data needs to be further collected.
 
  
