@@ -37,7 +37,7 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 <img width="709" alt="All lot t-test" src="https://user-images.githubusercontent.com/105877888/188211803-67a40306-252a-4715-abc0-a62ba31a18e7.png">
 
-- As shown in T-Test result, the p-value of all lot of suspension coils is `0.06028`. Assuming significance level is 0.05%, p-value is above significance level, we do not have sufficient evidence to reject the null hypothesis. The mean of all lot of suspension coils(1498.78) is similiar to the mean PSI of the population mean(`1500` PSI).
+- As shown in T-Test result, the p-value of all lot of suspension coils is `0.06028`. Assuming significance level is 0.05%, p-value is above significance level, we do not have sufficient evidence to reject the null hypothesis. The mean of all lot of suspension coils(`1498.78`) is similiar to the mean PSI of the population mean(`1500` PSI).
 
 ### ➢T-Test on Each Lot of Suspension Coils[[Lot1](https://github.com/CelineWW/MechaCar_Statistical_Analysis/blob/main/Screenshots/Lot1%20t-test.png)][[Lot2](https://github.com/CelineWW/MechaCar_Statistical_Analysis/blob/main/Screenshots/Lot2%20t-test.png)][[Lot3](https://github.com/CelineWW/MechaCar_Statistical_Analysis/blob/main/Screenshots/Lot3%20t-test.png)]
 
