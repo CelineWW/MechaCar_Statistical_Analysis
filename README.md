@@ -50,11 +50,11 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 <img width="653" alt="Lot3 t-test" src="https://user-images.githubusercontent.com/105877888/188211879-023d13da-d94e-4565-aac7-b10ed1e99abe.png">
 
 - As shown of T-Test results, the p-values of each lot of suspension coils are as follows:
-  ```
+```
 Lot1: p-value = 1, mean = 1500;
 Lot2: p-value = 0.6072, mean = 1500.2;
 Lot3: p-value = 0.04168, mean = 1496.14.
-  ```
+```
 - The p-values of **Lot1** and **Lot2** are higher than significance level(0.05%), we do not have sufficient evidence to reject the null hypothesis. The means of **Lot1** and **Lot2** of suspension coils(`1500` PSI and `1500.2` PSI, respectively) are similiar to the population mean(1500 PSI).
 - The p-value of **Lot3** is lower than significance level(0.05%), we do have sufficient evidence to reject the null hypothesis. The means of **Lot3** of suspension coils(`1496.14` PSI) is statistically different from the population mean(1500 PSI). 
 
