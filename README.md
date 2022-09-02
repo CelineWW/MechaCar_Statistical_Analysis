@@ -13,19 +13,12 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 
 - Acoording to the multiple linear regression summary output highlighted in yellow box, p-value(`Pr(>|t|)`) of **vehicle_length** `(2.60e-12)` and **ground_clearance**`(5.21e-08)` are less than significance level(0.05), which represents that vehicle_length and ground_clearance provided a non-random amount of variance to th **mpg** values in the dataset. In other words, *vehicle_length* and *ground_clearance* have significant impacts on *mpg*. 
 - At the same time, p-value(`Pr(>|t|)`) of intercept(`5.08e-08`) is less than significance level(0.05) too. This statistically significant intercept indicates that this linear model does not predict mpg of MechaCar prototypes effectively. The significant feartures (vehicle_length and ground_clearance) may need scaling and transforming to help improve the predictive power of the model. There are other variables, which are not inclued in this model, can help explain the variability of the mpg values.
-- Acoording to the multiple linear regression summary output highlighted in green box, `Multiple R-squared: 0.7419` means tht over 70% of the variability of **mpg**
-
-- Since two out of five p-values of our linear regression analysis are less much smaller than assumned significance level of 0.05%. We can state that there are two independent variables (vehicle_length and ground_clearance) are sin
 
 
+- Acoording to the multiple linear regression summary output highlighted in pink box, `p-value: 5.766e-06` is much smaller than assumned significance level of 0.05%. We can reject state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our liean model is not zero.
 
-The MechaCar_mpg.csv file is imported and read into a dataframe (5 pt)
-An RScript is written for a linear regression model to be performed on all six variables (10 pt)
-An RScript is written to create the statistical summary of the linear regression model with the intended p-values (10 pt)
+- Acoording to the multiple linear regression summary output highlighted in green box, `Multiple R-squared: 0.7419` means tht over 70% of the variability of **mpg** is explained using this linear model. Based on this result, we can consider that this linear model predicts mpg of MechaCar prototype effectively.
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 ## Summary Statistics on Suspension Coils
 
