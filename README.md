@@ -58,6 +58,15 @@ Lot3: p-value = 0.04168, mean = 1496.14.
 - The p-value of **Lot3** is lower than significance level(0.05%), we do have sufficient evidence to reject the null hypothesis. The means of **Lot3** of suspension coils(`1496.14` PSI) is statistically different from the population mean(`1500` PSI). 
 
 ## Study Design: MechaCar vs Competition
+To study how the MechaCar performs against the competitions, we need to answer the following questions:
+- What metric or metrics are you going to test?
+ **MPG(Miles per Gallon)** which indicates the fuel economy of the vehicle.
+ 
+- What is the null hypothesis or alternative hypothesis?
+H<sub>0</sub>: 
+H<sub>a</sub>:
+
+- What statistical test would you use to test the hypothesis? And why?
 
 two-sample t-test?
  If the success metric is numerical and the sample size is large, use a two-sample t-test.
