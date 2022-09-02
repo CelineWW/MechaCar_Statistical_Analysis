@@ -1,5 +1,21 @@
 # MechaCar_Statistical_Analysis
+
+A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
+In this challenge, you’ll help Jeremy and the data analytics team do the following:
+Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+
 ## Linear Regression to Predict MPG
+
+![Linear Regression to Predict MPG](https://user-images.githubusercontent.com/105877888/188201369-507f4a2c-7e3b-43dc-aa48-14e6d34ef443.png)
+
+- Acoording to the multiple linear regression summary output, p-value(`Pr(>|t|)`) of vehicle_length(2.60 x 10-12) and ground_clearance(5.21e-08)are less than significance level(0.05), which represents that vehicle_length and ground_clearance provided a non-random amount of variance to th mpg values in the dataset. In other words, vehicle_length and ground_clearance have significant impacts on mpg.  random amount of variance to the linear model.
+
+- Since two out of five p-values of our linear regression analysis are less much smaller than assumned significance level of 0.05%. We can state that there are two independent variables (vehicle_length and ground_clearance) are sin
+
+At the same time, p-value(`Pr(>|t|)`) of intercept(5.08e-08) is less than significance level(0.05) too. This statistically significant intercept indicates that this linear model does not predict mpg of MechaCar prototypes effectively. The significant feartures (vehicle_length and ground_clearance) may need scaling and transforming to help improve the predictive power of the model. There are other variables, which are not inclued in this model, can help explain the variability of the mpg values.
 
 The MechaCar_mpg.csv file is imported and read into a dataframe (5 pt)
 An RScript is written for a linear regression model to be performed on all six variables (10 pt)
