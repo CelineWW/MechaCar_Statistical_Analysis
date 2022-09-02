@@ -38,7 +38,7 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 <img width="709" alt="All lot t-test" src="https://user-images.githubusercontent.com/105877888/188211803-67a40306-252a-4715-abc0-a62ba31a18e7.png">
 
-- As shown of T-Test result, the p-value of all lot of suspension coils is `0.06028`. Assuming significance level is 0.05%, p-value is above significance level, we do not have sufficient evidence to reject the null hypothesis. The mean of all lot of suspension coils(1498.78) is similiar to the mean PSI of the population mean(1500 PSI).
+- As shown of T-Test result, the p-value of all lot of suspension coils is `0.06028`. Assuming significance level is 0.05%, p-value is above significance level, we do not have sufficient evidence to reject the null hypothesis. The mean of all lot of suspension coils(1498.78) is similiar to the mean PSI of the population mean(`1500` PSI).
 
 ### T-Test on Each Lot of Suspension Coils
 
@@ -54,8 +54,8 @@ Lot1: p-value = 1, mean = 1500;
 Lot2: p-value = 0.6072, mean = 1500.2;
 Lot3: p-value = 0.04168, mean = 1496.14.
 ```
-- The p-values of **Lot1** and **Lot2** are higher than significance level(0.05%), we do not have sufficient evidence to reject the null hypothesis. The means of **Lot1** and **Lot2** of suspension coils(`1500` PSI and `1500.2` PSI, respectively) are similiar to the population mean(1500 PSI).
-- The p-value of **Lot3** is lower than significance level(0.05%), we do have sufficient evidence to reject the null hypothesis. The means of **Lot3** of suspension coils(`1496.14` PSI) is statistically different from the population mean(1500 PSI). 
+- The p-values of **Lot1** and **Lot2** are higher than significance level(0.05%), we do not have sufficient evidence to reject the null hypothesis. The means of **Lot1** and **Lot2** of suspension coils(`1500` PSI and `1500.2` PSI, respectively) are similiar to the population mean(`1500` PSI).
+- The p-value of **Lot3** is lower than significance level(0.05%), we do have sufficient evidence to reject the null hypothesis. The means of **Lot3** of suspension coils(`1496.14` PSI) is statistically different from the population mean(`1500` PSI). 
 
 ## Study Design: MechaCar vs Competition
 
