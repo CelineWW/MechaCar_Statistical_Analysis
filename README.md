@@ -10,7 +10,7 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 ![Linear Regression to Predict MPG](https://user-images.githubusercontent.com/105877888/188210992-da1ad51c-7f3d-4f85-918b-763fab69bed8.png)
 
-- Acoording to the multiple linear regression summary output highlighted in yellow box, p-value(`Pr(>|t|)`) of **Vehicle Length** `(2.60 x 10<sup>-12</sup>)` and **Ground Clearance**`(5.21e-08)` are less than significance level(0.05), which represents that vehicle_length and ground_clearance provided a non-random amount of variance to thE **MPG** values in the dataset. In other words, **Vehicle Length** and **Ground Clearance** have significant impacts on **MPG**. 
+- Acoording to the multiple linear regression summary output highlighted in yellow box, p-value(`Pr(>|t|)`) of **Vehicle Length** `(2.60x10 <sup>-12</sup>)` and **Ground Clearance**`(5.21e-08)` are less than significance level(0.05), which represents that vehicle_length and ground_clearance provided a non-random amount of variance to thE **MPG** values in the dataset. In other words, **Vehicle Length** and **Ground Clearance** have significant impacts on **MPG**. 
 - At the same time, p-value(`Pr(>|t|)`) of intercept(`5.08e-08`) is less than significance level(0.05) too. This statistically significant intercept indicates that this linear model does not predict **MPG** of MechaCar prototypes effectively. The significant feartures (**Vehicle Length** and **Ground Clearance**) may need scaling and transforming to help improve the predictive power of the model. There are other variables, which are not inclued in this model, can help explain the variability of the **MPG** values.
 
 
