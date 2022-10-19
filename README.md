@@ -15,7 +15,7 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 
 - Acoording to the multiple linear regression summary output highlighted in pink box, `p-value: 5.766e-06***` is much smaller than assumned significance level of 0.001%. We can state that there is very strong sufficient evidence to reject our null hypothesis, which means that the slope of our liean model is not zero.
 
-- Acoording to the multiple linear regression summary output highlighted in green box, `Multiple R-squared: 0.7419` means that over 70% of the variability of **MPG** is explained using this linear model. Based on this result, we can consider that this linear model predicts **MPG** of MechaCar prototype effectively.
+- Acoording to the multiple linear regression summary output highlighted in green box, `Multiple R-squared: 0.7149` means that over 70% of the variability of **MPG** is explained using this linear model. Based on this result, we can consider that this linear model predicts **MPG** of MechaCar prototype effectively.
 
 
 ## Summary Statistics on Suspension Coils
